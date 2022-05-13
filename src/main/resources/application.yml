@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: demo
+netty:
+  default:
+    allocator:
+      max-order: 3
+---
+micronaut:
+  http:
+    services:
+      foo:
+        url: 'https://google.com'
